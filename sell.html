@@ -1,0 +1,106 @@
+<html>
+<head>
+<style>
+body{
+background-color:skyblue;
+border:solid;
+border-color:black;
+background-image:url(background/dd7.jpeg);
+background-size:cover;
+
+}
+
+
+table{
+margin-left:250px;
+border:solid;
+border-color:white;
+
+}
+td{
+color:black;
+font-family:Constantia;
+font-size:20pt;
+text-transform:uppercase;
+padding:10px;
+}
+h1{
+color:red;
+margin-left:170px;
+font-family:calibari;
+font-size:45pt;
+}
+input[type=text]{
+width:340px;
+height:45px;
+font-family:Imprint MT Shadow;
+color:balck;
+font-size:15pt;
+background-color:pink;
+}
+input[type=file]{
+width:180px;
+height:45px;
+font-family:Imprint MT Shadow;
+color:balck;
+font-size:10pt;
+background-color:pink;
+}
+input[type=submit]{
+width:180px;
+height:45px;
+font-family:Imprint MT Shadow;
+color:white;
+font-size:27pt;
+background-color:green;
+}
+input[type=reset]
+{
+width:180px;
+height:45px;
+font-family:Imprint MT Shadow;
+color:white;
+font-size:27pt;
+background-color:red;
+}
+h3{
+margin-left:1150px;
+margin-top:3px;
+margin-right:40px;
+color:green;
+font-size:25pt;
+background-color:red;
+ 
+}
+</style>
+
+</head>
+<body>
+ <form method="POST" action="sell.html" enctype="multipart/form-data"> 
+<h3><a href="choice.html">CANCEL</a></h3>
+<table>
+<tr><h1>INCLUDE SAME PRODUCT DETAILS</h1></tr>
+<tr><td><label><b>PRODUCT BRAND</label></td>
+<td><input type="text"name="brand"placeholder="include our product brand"value="">
+</td></tr>
+<tr><td><label><b>AD TITLE</label></td>
+<td><input type="text"name="title"placeholder="Mention the key features of your item(brand,model,age,type"value="">
+</td></tr>
+<tr><td><label><b>PRODUCT DESCRIPTION</label></td>
+<td><input type="text"name="decription"placeholder="include condition,features and reson for selling"value="">
+</td></tr>
+<tr><td><label><b>SET A PRICE</label></td>
+<td><input type="text"name="price"placeholder="set a price your item"value="">
+</td></tr>
+<tr><td><label><b>UPLOAD IMAGE</label></td>
+<td>
+<input type="file"name="pic1"value=""/>
+<input type="file"name="pic2"value=""/>
+<input type="file"name="pic3"value=""/>
+ </td>
+</tr>
+<tr><td>
+<input type="submit"name="sell"value="SELL">
+</td><td><input type="reset"name="reset"value="RESET"></td></tr>
+</form>
+</body>

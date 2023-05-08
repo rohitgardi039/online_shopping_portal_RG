@@ -1,0 +1,66 @@
+ <html>
+<head>
+
+  <Style type="text/css">
+body{
+	background-image:url(sales.jpg);
+	background-size:cover;
+	border-style:inset;
+}
+border{
+border-radius:1px;
+}
+h3{
+color:lime;
+font-family:arial;
+font-size:14pt;
+text-transform:uppercase;
+padding-left:550px;
+padding-top:20px;
+}
+h1{
+color:white;
+font-family:armenian;
+font-size:32pt;
+text-transform:uppercase;
+padding-left:400px;
+padding-top:30px;
+border-style:solid;
+}
+div.aa{
+padding-left:550px;
+padding-top:30px;
+}
+</style>
+</head>
+<body>
+<h1><lable>inword product information</lable></h1>
+<table>
+<tr>
+	<td><h3><label>customer id </label></td>
+	<td><input type="text"name="cid"value=""></h3></td></tr>
+  <tr>
+	<td><h3><label>product id </label></td>
+	<td><input type="text"name="pid"value=""></h3></td></tr>
+<tr><td><h3><label>product name </label></td>
+	<td><input type="text"name="pname"value=""></h3></td> </tr><br>
+<tr><td><h3><label>module no</label></td>
+	<td><input type="text"name="module"value=""></h3></td> </tr>
+	<tr><td><h3><label>product purchese date</label></td>
+	<td><input type="date"name="pdate"value=""></h3></td></tr>
+	 
+	<tr><td><h3><label>product registration date </label></td>
+	<td><input type="date"name="prdate"value=""></td></h3></tr>
+	<tr><td><h3><label>product price</label></td>
+	<td><input type="text"name="price"value=""></h3></td></tr>
+	<tr><td><h3><label>picture of product</label></td>
+	<td><input type="file"name="uploadimage"value=""></h3></td></tr>
+ 
+	</table>
+	
+	<div class="aa">
+				<input type="reset"name="reset"value="NEW">
+				<input type="submit"name="insert"value="INSERT">
+			    <input type="submit"name="update"value="UPDATE">
+				<input type="submit"name="delete"value="DELETE">   
+				</div>

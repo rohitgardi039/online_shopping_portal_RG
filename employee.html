@@ -1,0 +1,75 @@
+<html>
+<head>
+
+  <Style type="text/css">
+body{
+	background-image:url(employee.jpeg);
+	background-size:cover;
+	border-style:inset;
+	border-color:white;
+}
+border{
+border-radius:1px;
+}
+h3{
+color:red;
+font-family:arial;
+font-size:14pt;
+text-transform:uppercase;
+padding-left:550px;
+padding-top:15px;
+}
+h1{
+color:white;
+font-family:armenian;
+font-size:32pt;
+text-transform:uppercase;
+padding-left:450px;
+padding-top:35px;
+border-style:inset;
+}
+div.aa{
+padding-left:550px;
+padding-top:30px;
+}
+</style>
+</head>
+<body>
+<h1><lable>employee information</lable></h1>
+<table> 
+  <tr>
+	<td><h3><label>employee  id </label></td>
+	<td><input type="text"name="cid"value=""></h3></td></tr>
+<tr><td><h3><label>employee name </label></td>
+	<td><input type="text"name="cname"value=""></h3></td> </tr><br>
+<tr>	<td><h3> <label>employee address</label></td>
+	<td><input type="text"name="caddress"value=""></h3></td> </tr>
+	<tr><td><h3><label>gender</label></td>
+	
+	<td><input type="radio"name="gender"value="male">MALE
+	<input type="radio"name="gender"value="female">FEMALE</td></tr>
+	<tr><td><h3><label>mobile no </label></td>
+	<td><input type="text"name="mobile"value=""></td></h3></tr>
+	<tr><td><h3><label>email id </label></td>
+	<td><input type="text"name="email"value=""></td></h3></tr>
+	<tr><td><h3><label>date of brith</label></td>
+	<td><input type="date"name="bdate"value=""></h3></td></tr>
+	<tr><td><h3><label>Employee Type</label></td>
+	
+	<td><input type="radio"name="etype"value="manger">MANAGER
+	<input type="radio"name="etype"value="employee">EMPLOYEE</td></tr>
+	<tr><td><h3><label>joining date </label></td>
+	<td><input type="date"name="rdate"value=""></h3></td></tr>
+	<tr><td><h3><label>experiance</label></td>
+	<td><input type="text"name="experiance"value=""></td></h3></tr>
+	<tr><td><h3><label>picture of employee</label></td>
+	<td><input type="file"name="epic"value=""></td></h3></tr>
+	 
+	</table>
+	
+	<div class="aa">
+				<input type="reset"value="NEW">
+				<input type="submit"name="insert"value="INSERT">
+			    <input type="submit"name="update"value="UPDATE">
+				<input type="submit"name="delete"value="DELETE">   
+				</div>
